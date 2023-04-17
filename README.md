@@ -84,9 +84,10 @@ L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion
 # FUNCIONALIDAD  (para Desarrolladoras)
 
 
-Este es una web que usa dos funciones basicamente para la validacion de la tarjeta de credito.
+Este es una web que usa dos funciones basicamente:
 
-- isValid:  Esta funcion se confecciono basandose en el algoritmo de Lunh.
+#### 1-IsValid para la validacion de la tarjeta de credito. (usando algoritmo de Lunh)
+
 
 ```javascript
   isValid: function (creditCard) {
@@ -132,7 +133,7 @@ Este es una web que usa dos funciones basicamente para la validacion de la tarje
 
   }
 ```
-- maskify: Esta funcion busca esconder los primeros digitos de tu tarjeta luego de ingresada.
+#### 2-Maskify para esconder los primeros digitos de tu tarjeta luego de ingresada.
 
 ```javascript
   maskify: function (creditCard) {
