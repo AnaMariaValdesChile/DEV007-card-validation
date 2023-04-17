@@ -76,7 +76,7 @@ L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion
 
 ![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/refrescar.png?raw=true)
 
-- Si el numero es menor o igual a 4, el numero no se enmacarara con #, sino que devolvera el numero tal cual.
+- Si el numero es menor o igual a 4, el numero no se enmacasrara con #, sino que devolvera el numero tal cual.
 
 ![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/numero-menor-igual-cuatro.png?raw=true)
 
