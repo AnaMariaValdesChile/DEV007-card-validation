@@ -11,7 +11,7 @@
 
 **Table of Contents**
 
-#### Html y Css
+#### <abbr title="Hyper Text Markup Language">HTML</abbr> y Css
 
 ![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/Screenshot_1.png?raw=true)
 
@@ -37,9 +37,9 @@
 # INTRODUCCION
 
 Esta web tiene como proposito Validar una tarjeta de Credito!
-- La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun para todos y deben dejar una garantia en el caso de que algo se heche a perder.  Siempre sera necesario, para la debida reserva, que  el ocupante tenga la capacidad de pagar, en el caso de que se haya roto o hechado a perder algo de estas instalaciones, luego de que este lo haya usado. Esta reserva con tarjeta de credito evitaria que se pagara lo que ahora se llama garantia.
+- La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun (canchas, quincho, gimnasio, piscina, sala de eventos ) y deben dejar una garantia en el caso de que algo se heche a perder.  Seria mas eficaz, para la debida reserva, que  el ocupante tenga ingrese una tarjeta de credito como garantia, y en el caso de que se haya roto o hechado a perder algo de estas instalaciones luego de que este lo haya usado, se le hace cobro del monto justo, sin pagar mas ni menos.
 
-# FUNCIONALIDAD
+# FUNCIONALIDAD  (para la Usuaria)
 
 #### 1-INGRESO A LA WEB
 L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion: "para reservar valide su tarjeta de credito".
@@ -75,6 +75,10 @@ L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion
 - A la derecha de la barra blanca para escribir, encontraras un Icono que representa a una tarjeta de credito, el cual ayuda a la usuaria a entender sin leer que en la siguiente barra se ingresa el numero de tarjeta. Este icono ademas cumple la funcion de Refrescar la pagina si le das click.
 
 ![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/refrescar.png?raw=true)
+
+
+# FUNCIONALIDAD  (para Desarrolladoras)
+
 
 
 
