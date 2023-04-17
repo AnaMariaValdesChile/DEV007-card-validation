@@ -1,3 +1,39 @@
+###Mi Primer Proyecto - Card Validation
+
+#PARTE VISUAL
+
+- La pagina web cuenta con un Html 
+- Contiene una parte que es un Titulo 
+- Contiene una Imagen como logo de una tarjeta, que ademas tiene la funcionalidad de recargar la pagina cuando la precionas. 
+- Contiene una parte que es un Imput para ingresar el numero de Tarjeta.
+- Contiene una Boton que es el que ejecutara la accion (funcion) cuando se le de Click.
+- En la parte de abajo contiene un Banner donde se pueden visualizar 3 imagenes (fotografias), se se cambian durante 10 segundo y se repite infinitamente.
+
+**Table of Contents**
+
+####Html y Css
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/Screenshot_1.png?raw=true)
+####Titulo
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/titulo.png?raw=true)
+####Icono Tarjeta
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/IconoTarjeta&Refresh.png?raw=true)
+####Input Type Text
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/InputTypeText.png?raw=true)
+####Boton Validar
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/Boton.png?raw=true)
+####Banner
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/banner01.png?raw=true)
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/banner03.png?raw=true)
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/benner02.png?raw=true)
+
+#INTRODUCCION
+
+Esta web tiene como proposito Validar una tarjeta de Credito!
+- La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun para todos y deben dejar una garantia en el caso de que algo se heche a perder.  Siempre sera necesario, para la debida reserva, que  el ocupante tenga la capacidad de pagar en el caso de que se haya roto o hechado a perder algo de estas instalaciones luego de que este le haya dado uso.
+
+#FUNCIONALIDAD
+
+
 # Tarjeta de crédito válida
 
 ## Índice
