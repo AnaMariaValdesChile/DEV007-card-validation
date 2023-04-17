@@ -76,10 +76,87 @@ L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion
 
 ![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/refrescar.png?raw=true)
 
+- Si el numero es menor o igual a 4, el numero no se enmacarara con #, sino que devolvera el numero tal cual.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/numero-menor-igual-cuatro.png?raw=true)
+
 
 # FUNCIONALIDAD  (para Desarrolladoras)
 
 
+Este es una web que usa dos funciones basicamente para la validacion de la tarjeta de credito.
+
+- isValid:  Esta funcion se confecciono basandose en el algoritmo de Lunh.
+
+```javascript
+  isValid: function (creditCard) {
+
+    const array = creditCard.split("");//crear un arreglo con los digitos del numero ingresado
+    const arrayReverse = array.reverse();//ordenar el arreglo al revez
+    const nuevoArray = [];
+    const nuevoArray2 = [];
+
+    if (creditCard === "" || creditCard === "e") {      //no permite que entre string vacio o letra e.
+      document.getElementById("mensaje").innerHTML = "Debe ingresar un numero de tarjeta valido".fontcolor('blue')  //muestra error
+
+    } else {
+      for (let i = 0; i < arrayReverse.length; i++) { //RECORRE EL ARREGLO
+        if (i % 2 !== 1) {                             //CONDICION INDICE  PAR 
+          nuevoArray.push(arrayReverse[i])             //AGREGA EL ELEMENTO
+        } else {                                    //CONDICION INDICE IMPAR 
+          nuevoArray.push(arrayReverse[i] * 2)    //AGREGA EL ELEMENTO MULTIPLICADO POR DOS
+        }
+      }
+
+      for (let j = 0; j < nuevoArray.length; j++) {   //RECORRE EL NUEVO ARREGLO
+        if (nuevoArray[j] < 10) {                       // SI ES MENOR QUE DIEZ
+          const convertirAnumero = parseInt(nuevoArray[j])  // LO CONVIERTE A NUMERO
+          nuevoArray2.push(convertirAnumero)             //Y LO PONE EN OTRO ARREGLO
+        } else {                                            //SI ES MAYOR A 10 (DE 2 DIGITOS)
+          const numeroAstring = nuevoArray[j].toString();    // PASA EL NUMERO A UNA CADENA DE STRING
+          const dosDigitos = numeroAstring.split("");       //SEPARA EL STRING EN UN ARREGLO 
+          const sumaDosDigitos = parseInt(dosDigitos[0]) + parseInt(dosDigitos[1]);  //SUMA LOS DOS ELEMENTOS COMO NUMEROS
+          nuevoArray2.push(sumaDosDigitos)                //PONE ESA SUMA EN EL NUEVO ARREGLO
+        }
+      }
+    }
+
+    const total = nuevoArray2.reduce((a, b) => a + b) ;   // SUMA TODOS LOS DIGITOS
+    let resultado = [];                                // CREA VARIABLE RESULTADO
+    if (total % 10 === 0) {                               //CONDICON SI ES DIVISIBLE POR 10
+      resultado = true;                                   //RESULTADO ES IGUAL A VERDADERO
+    } else{                                               // CONDICION SI NO ES DIVISIBLE PO 10
+      resultado=false ;                                   // RESULTADO FALSO
+    }
+    return resultado                                       // RETORNA VARIABLE CON RESULTADO
+
+  }
+```
+- maskify: Esta funcion busca esconder los primeros digitos de tu tarjeta luego de ingresada.
+
+```javascript
+  maskify: function (creditCard) {
+
+    const arrayCreditCard = creditCard.split("");     //RECIVE UN STRING Y LO CONVIERTE A ARRAY
+    const array2CreditCard = []
+
+
+    if (4 < creditCard.length) {
+      for (let k = 0; k < arrayCreditCard.length; k++) {  //RECORRE EN ARREGLO
+        if (k <= (arrayCreditCard.length - 5)) {  //CONDICION PARA TODOS LOS NUMERO DEJANDO 4 SIN ACCIONAR
+          arrayCreditCard[k] = "#";  //LOS CONVERTIRA A #
+          array2CreditCard.push(arrayCreditCard[k]) //LOS PONE EN UN NUEVO ARRAY
+        } else
+          array2CreditCard.push(arrayCreditCard[k]) //DEJA LOS ULTIMOS 4 SIN MODIFICAR Y LOS PONE EN EL ARRAY
+      }
+      const enmascarado= array2CreditCard.reduce((a, b) => a + b) //CONCATENA LOS DIGITOS DEL ARRAY
+      return enmascarado;  //DEVUELVE EL NUMERO ENMASCARADO
+    } else {
+      return creditCard; // SI ES 4 O MENOS LO DEVUELVE IGUAL
+    }
+  }
+}
+```
 
 
 # Tarjeta de crédito válida
