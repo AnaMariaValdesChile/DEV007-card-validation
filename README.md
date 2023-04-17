@@ -92,13 +92,13 @@ Este es una web que usa dos funciones basicamente:
 ```javascript
   isValid: function (creditCard) {
 
-    const array = creditCard.split("");//crear un arreglo con los digitos del numero ingresado
-    const arrayReverse = array.reverse();//ordenar el arreglo al revez
+    const array = creditCard.split("");   //CREAR UN AGGREGLO CON LOS DIGITOS INGRESADOS
+    const arrayReverse = array.reverse();  //ORDENAR EL ARREGLO ALREVEZ
     const nuevoArray = [];
     const nuevoArray2 = [];
 
-    if (creditCard === "" || creditCard === "e") {      //no permite que entre string vacio o letra e.
-      document.getElementById("mensaje").innerHTML = "Debe ingresar un numero de tarjeta valido".fontcolor('blue')  //muestra error
+    if (creditCard === "" || creditCard === "e") {      //NO PERMITE UN STRING VACIO O LETRA "e"
+      document.getElementById("mensaje").innerHTML = "Debe ingresar un numero de tarjeta valido".fontcolor('blue')  //MENSAJE DE ERROR
 
     } else {
       for (let i = 0; i < arrayReverse.length; i++) { //RECORRE EL ARREGLO
