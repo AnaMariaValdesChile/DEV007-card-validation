@@ -37,9 +37,45 @@
 # INTRODUCCION
 
 Esta web tiene como proposito Validar una tarjeta de Credito!
-- La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun para todos y deben dejar una garantia en el caso de que algo se heche a perder.  Siempre sera necesario, para la debida reserva, que  el ocupante tenga la capacidad de pagar en el caso de que se haya roto o hechado a perder algo de estas instalaciones luego de que este le haya dado uso.
+- La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun para todos y deben dejar una garantia en el caso de que algo se heche a perder.  Siempre sera necesario, para la debida reserva, que  el ocupante tenga la capacidad de pagar, en el caso de que se haya roto o hechado a perder algo de estas instalaciones, luego de que este lo haya usado. Esta reserva con tarjeta de credito evitaria que se pagara lo que ahora se llama garantia.
 
 # FUNCIONALIDAD
+
+#### 1-INGRESO A LA WEB
+L@s usuari@s pueden dirigirse a la pagina y encontrar en su titulo la indicacion: "para reservar valide su tarjeta de credito".
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/intro.png?raw=true)
+
+#### 2-INGRESAR EL NUMERO DE TARJETA
+
+- En la barra de color blanco pueden ingresar el numero se su tarjeta de credito, esta puede ser solo en numeros, YA QUE ESTAN BLOQUEADAS LAS LETRAS.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/ingreso-numero-tarjeta.png?raw=true)
+
+#### 3-VALIDAR EL NUMERO DE TARJETA
+
+- A la derecha de la barra para ingresar el numero encontrarar el boton "validar", el cual tomara los datos de tu tarjeta y los pasara por el sistema interno.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/boton-validar.png?raw=true)
+
+#### 4-RESULTADO VALIDACION
+
+- Si tu tarjeta es valida, te aparecera a cambio de esta barra y este boton, un mensaje donde te apareceran los primeros numeros de tu tarjeta bloqueados por un #, y un mensaje en color verde que dice "Su tarjeta SI es valida.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/tarjeta-valida.png?raw=true)
+
+- Si tu tarjeta NO es valida, te aparecera a cambio de esta barra y este boton, un mensaje donde te apareceran los primeros numeros de tu tarjeta bloqueados por un #, y un mensaje en color rojo que dice "Su tarjeta NO es valida.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/tarjeta-no-valida.png?raw=true)
+
+- Si no se ingresa nada, o se ingresa un digito valor "e", te aparecera, a cambio de la barra y el boton, el siguiente mensaje en color azul: "Debe ingresar un numero de tarjeta valido", por lo que tendras que refrescar la pagina.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/no-valido.png?raw=true)
+
+- A la derecha de la barra blanca para escribir, encontraras un Icono que representa a una tarjeta de credito, el cual ayuda a la usuaria a entender sin leer que en la siguiente barra se ingresa el numero de tarjeta. Este icono ademas cumple la funcion de Refrescar la pagina si le das click.
+
+![](https://github.com/AnaMariaValdesChile/DEV007-card-validation/blob/main/refrescar.png?raw=true)
+
 
 
 # Tarjeta de crédito válida
