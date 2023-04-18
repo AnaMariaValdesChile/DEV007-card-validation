@@ -2,10 +2,10 @@
 
 # PARTE VISUAL
 
-- La pagina web cuenta con un Html 
+- La pagina web cuenta con un Html y Css
 - Contiene una parte que es un Titulo 
 - Contiene una Imagen como logo de una tarjeta, que ademas tiene la funcionalidad de recargar la pagina cuando la precionas. 
-- Contiene una parte que es un Imput para ingresar el numero de Tarjeta.
+- Contiene una parte que es un Input para ingresar el numero de Tarjeta.
 - Contiene una Boton que es el que ejecutara la accion (funcion) cuando se le de Click.
 - En la parte de abajo contiene un Banner donde se pueden visualizar 3 imagenes (fotografias), se se cambian durante 10 segundo y se repite infinitamente.
 
