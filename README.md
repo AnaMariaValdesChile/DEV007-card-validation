@@ -158,6 +158,16 @@ Este es una web que usa dos funciones basicamente:
   }
 }
 ```
+# DECISIONES DE DISEÑO
+
+En este proyecto web elegí un diseño sencillo:
+- Fondo Gris
+- Pagina visual con contenido en Main solamente.
+- Letras tipo Verdana, para darle un sentido formal
+- Icono Tarjeta Trasparente ( se ve el fondo gris)
+- Banner con 3 fotografias especificamente de la idea elegida.
+
+
 
 
 # Tarjeta de crédito válida
