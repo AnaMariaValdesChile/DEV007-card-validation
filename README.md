@@ -168,11 +168,9 @@ En este proyecto web elegí un diseño sencillo:
 - Banner con 3 fotografias especificamente de la idea elegida.
 
 
-# link
+# Links Documentacion y Videos
 
-Documentos y Videos
 
- [Heading link](https://github.com/pandao/editor.md "Heading link")
  
 - [Fork](https://desarrolloweb.com/articulos/fork-git)
 
