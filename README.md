@@ -168,7 +168,112 @@ En este proyecto web elegí un diseño sencillo:
 - Banner con 3 fotografias especificamente de la idea elegida.
 
 
+# link
 
+Documentos y Videos
+-fork
+https://desarrolloweb.com/articulos/fork-git
+
+-extensiones visual studio
+https://www.youtube.com/watch?v=Y2WlJJ3Jjlk&ab_channel=EDteam
+
+-input type number
+https://www.coderbox.net/blog/permitir-solo-numeros-en-un-campo-de-texto-con-javascript/
+
+-como funciona if else 
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
+
+-como invertir un numero 
+https://devxdev.net/invertir-numero-javascript/
+
+-separar los digitos de un numero
+https://www.youtube.com/watch?v=TZvyd45ORJQ&ab_channel=JohnOrtizOrdo%C3%B1ez
+
+-escuchar lo que hace html para enlasar con javascript
+https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener
+
+-tipos de input
+https://www.youtube.com/watch?v=u1JRC24rUfk&ab_channel=KikoPalomares
+
+-funcionalidad onclick y eventlistener
+https://www.freecodecamp.org/espanol/news/boton-html-onclick-tutorial-de-evento-de-clic-en-
+javascript/
+
+-organizar al revez elementos de un array
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+
+-posicion de elemento en un arreglo
+https://www.freecodecamp.org/espanol/news/el-manual-de-arreglos-en-javascript/#:~:text=El%
+}20m%C3%A9todo%20de%20arreglo%20indexOf,m%C3%A9todo%20indexOf()%20regresa%20%2D1%20.
+
+-reconocer numero impares
+https://www.forosdelweb.com/f13/reconocer-numeros-impares-javascript-763675/
+
+-convertir numero a string
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
+
+-convertir string a numero
+https://keepcoding.io/blog/como-convertir-un-string-en-numero-en-javascript/#:~:text=Convertir
+%20string%20a%20n%C3%BAmero%20JavaScript%20con%20parseInt(),-Por%20otra%20parte&text=
+Esta%20instrucci%C3%B3n%20convierte%20directamente%20un,entero%20m%C3%A1s%20cercano%20al%20
+decimal.
+
+-sumar elementos de un array
+https://es.stackoverflow.com/questions/248429/sumar-elementos-de-un-array-en-javascript
+
+-poner un mensaje luego de precionado el boton
+https://www.youtube.com/watch?v=CdOO-Z4SgYY&ab_channel=ProfesorDiegoNogueira
+
+-cambiar los digitos y remplazarlos por # 
+https://gist.github.com/ahmadalibaloch/ec97aaebf12853b018239aa05f40dea9
+
+-tipos de addeventlistener
+http://www.mywonderland.es/curso_js/addevent/index.html
+
+-ayuda con diseño
+https://dribbble.com/
+
+-Desactivar las flechas de los inputs numbers
+https://www.diariodeunprogramador.net/desactivar-las-flechas-de-los-inputs-numbers/
+
+-tipos de margenes y bordes css
+https://www.lawebera.es/xhtml-css/margen-relleno-bordes-de-capas-con-css-html.php#:~:text=
+En%20el%20c%C3%B3digo%20CSS%2C%20el,se%20le%20determina%20el%20margen.
+
+-como poner un div al lado de otro
+https://donestandares.wordpress.com/2008/01/23/colocar-un-div-junto-de-otro-seguimos-con-los-cursos/
+https://uniwebsidad.com/libros/css-avanzado/capitulo-3/selector-de-hijos
+
+
+-codigos colores CSS
+https://htmlcolorcodes.com/es/
+
+-como centrar un div
+https://rafaelneto.dev/blog/como-centrar-div/
+
+-estilo de input
+https://www.arsys.es/blog/campos-input-texto-css
+
+-selectror padres e hijos CSS
+https://uniwebsidad.com/libros/css-avanzado/capitulo-3/selector-de-hijos
+
+-cambiar de color a un string con javascript
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor
+
+-dos funciones en un addeventlistener
+https://lenguajejs.com/javascript/eventos/addeventlistener/
+
+-alinear el codigo correctamente
+como alinear el codigo correctamente js en visual studio code
+
+-imagen 100%
+https://www.freecodecamp.org/espanol/news/tutorial-de-imagenes-
+responsivas-en-css-como-hacer-que-las-imagenes-sean-responsivas-
+con-css/#:~:text=Para%20hacer%20que%20una%20imagen,las%20abso
+lutas%2C%20como%20los%20p%C3%ADxeles.
+
+-banner
+https://www.youtube.com/watch?v=TpsTGGsyREQ&ab_channel=J%26GProyectosWeb
 
 # Tarjeta de crédito válida
 
