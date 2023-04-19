@@ -171,8 +171,10 @@ En este proyecto web elegí un diseño sencillo:
 # link
 
 Documentos y Videos
--fork
-https://desarrolloweb.com/articulos/fork-git
+
+ [Heading link](https://github.com/pandao/editor.md "Heading link")
+ 
+- [Fork](https://desarrolloweb.com/articulos/fork-git)
 
 -extensiones visual studio
 https://www.youtube.com/watch?v=Y2WlJJ3Jjlk&ab_channel=EDteam
