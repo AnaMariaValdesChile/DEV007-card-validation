@@ -1,5 +1,7 @@
 # Card Validation
 ![](https://raw.githubusercontent.com/AnaMariaValdesChile/DEV007-card-validation/main/1.png) 
+![](https://raw.githubusercontent.com/AnaMariaValdesChile/DEV007-card-validation/main/2.png) 
+![](https://raw.githubusercontent.com/AnaMariaValdesChile/DEV007-card-validation/main/3.png) 
 
 ### INTRODUCCION
 
