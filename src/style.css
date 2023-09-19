@@ -104,15 +104,15 @@ button {
 @keyframes fotos {
   0%,
   30% {
-    background-image: url(condominio.jpg);
+    background-image: url(imagenes/condominio.jpg);
   }
   35%,
   65% {
-    background-image: url(condominio2.jpeg);
+    background-image: url(imagenes/condominio.jpg);
   }
   70%,
   100% {
-    background-image: url(condominio3.jpeg);
+    background-image: url(imagenes/condominio.jpg);
   }
 }
 
