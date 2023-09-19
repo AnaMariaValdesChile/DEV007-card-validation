@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reserva de Instalaciones</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header></header>
-  <main>
-    <section>
-      <h1>Servicio de Reserva y Uso de Instalaciones Condominio: <br> "BARRIO EL GOLF"</h1>
-      <h3>(Para reservar valide su tarjeta de credito)</h3>
-      <div id="caja">
-        <div>
-          <label> <a href="index.html" ><img class="tarjeta" src="iconoTarjeta.png" alt=""></a></label>
+  <body>
+    <div class="banner"></div>
+    <main>
+      <section class="container-right">
+        <div class="title">
+          <p class="uno">Reserva de instalaciones</p>
+          <p class="dos">Condominio Barrio Golf</p>
         </div>
-        <div>
-          <p id="mascara"><input id="numeroTarjeta" type="number" >
-            <button id="botonValidar" name="validar">validar</button>
-          </p>
+        <div class="form" id="container">
+          <label class="title-form">Ingrese sus datos aquí</label>
+          <input id="input-name" type="text" placeholder="Nombre Completo" />
+          <label id="error-name" class="error-name"></label>
+          <input id="input-depto" type="text" placeholder="N° Depto" />
+          <label id="error-depto" class="error-depto"></label>
+          <input id="input-modulo" type="text" placeholder="N° Modulo" />
+          <label id="error-modulo" class="error-modulo"></label>
+          <input
+            id="input-card"
+            type="text"
+            placeholder="N° Tarjeta de Credito"
+          />
+          <label id="error-card" class="error-card"></label>
+          <button id="button">Reservar</button>
         </div>
-        <div>
-          <p id="mensaje"></p>
-
-        </div>
-
-
-      </div>
-    </section>
-      <div class="banner">
-        
-      </div>
-
-
-  </main>
-  <footer></footer>
-  <script src="index.js" type="module"></script>
-</body>
-
+      </section>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
