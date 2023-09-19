@@ -1,12 +1,13 @@
 # Card Validation
+! []() 
 
-## INTRODUCCION
+### INTRODUCCION
 
 Esta web tiene como proposito Validar una tarjeta de Credito!
 
 - La idea surge de la necesidad que ocurre en un condominio de departamentos, cuando los ocupantes necesitan usar una instalacion comun (canchas, quincho, gimnasio, piscina, sala de eventos ) y deben dejar una garantia en el caso de que algo se heche a perder. Seria mas eficaz, para la debida reserva, que el ocupante tenga ingrese una tarjeta de credito como garantia, y en el caso de que se haya roto o hechado a perder algo de estas instalaciones luego de que este lo haya usado, se le hace cobro del monto justo, sin pagar mas ni menos.
 
-## FUNCIONALIDAD (para Desarrolladoras)
+### FUNCIONALIDAD (para Desarrolladoras)
 
 Este es una web que usa dos funciones basicamente:
 
